@@ -740,7 +740,7 @@ window.onload = function()
 	resultText = document.getElementById("result");
 	context = canvas.getContext("2d");
 	
-	const imgIndices = ["bb", "bk", "bn", "bp", "bq", "br", "wb", "wk", "wn", "wp", "wq", "wr"];
+	const imgIndices = ["bB", "bK", "bN", "bP", "bQ", "bR", "wB", "wK", "wN", "wP", "wQ", "wR"];
 	for (var i = 0; i < pieceImages.length; ++i)
 	{
 		pieceImages[i] = new Image();
