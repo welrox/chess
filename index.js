@@ -748,8 +748,11 @@ window.onload = function()
 	}
 
 	canvas.onmousedown = onMouseDown;
+	canvas.ontouchstart = onMouseDown;
 	canvas.onmousemove = onMouseMove;
+	canvas.ontouchmove = onMouseMove;
 	canvas.onmouseup = onMouseUp;
+	canvas.ontouchend = onMouseUp;
 	document.addEventListener("keydown", onKeyDown);
 	
 	setup();
