@@ -627,6 +627,9 @@ var aiMoveLerpFraction = 0.00;
 // this also calls aiMakeMoves()
 function draw()
 {
+	var canvasSide = Math.min(window.innerWidth, window.innerHeight*0.8);
+	canvas.width = canvasSide;
+	canvas.height = canvasSide;
 	context.clearRect(0, 0, canvas.width, canvas.height);
 	var s = canvas.width / 8;
 	
